@@ -1,0 +1,160 @@
+back-button
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+
+<!-- nav bar and header-->
+
+<div id="header">
+    
+    <div class="container">
+        <nav>
+            <img src="image/logo1.png" class="logo">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header2">
+            
+            <h5>Web Developer</h5>
+            <br>
+            <P> Hi,I'm <span>Ankit Chatterjee </span><br>from INDIA</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- About Section-->
+
+
+<div id="about">
+    <div class="container">
+        
+        <div class="row">
+            <div class="about-col-1 ">
+                
+                <img src="image/abpf.png" height="600px" width="500px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am Ankit Chatterjee, a passionate coder and web developer with a strong foundation in front-end and back-end technologies. As a recent graduate, I am eager to apply my technical skills and creativity to real-world projects. My academic background in Computer Science, combined with hands-on experience in various programming languages and frameworks, has equipped me with the ability to develop robust and user-friendly web applications.</p>
+                    <br>
+
+                    <p>I am proficient in HTML, CSS, JavaScript, and have experience working with libraries and frameworks like React.js and Node.js. My problem-solving abilities and attention to detail enable me to write clean, efficient code that meets client and user needs. I thrive in collaborative environments and am always keen to learn and adapt to new technologies.</p>
+                    <br>
+                    <p>I am seeking an opportunity to start my career in a dynamic organization where I can contribute to innovative projects, grow my skill set, and make a meaningful impact.</p>
+                    
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web developer</li>
+                            <li><span>App Development</span><br>App developer</li>
+                            <li><span>Others</span><br>C, C++, Python, Java</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Problem Solving</span><br>Solved DSA questions from GFG and Leetcode </li>
+                            <li><span>Development</span><br>Made a website for Hackathon</li>
+                            <li><span>Others</span><br>Worked Team Param-Sanskrit</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School</span><br>Kamarpukur Ramakrishna Mission Multipurpose School (10)<br>Bajua High School (10+2)</li>
+                            <li><span>College</span><br>Techno Main Salt Lake (CSE AIML)</li>
+                            <li><span>Others</span><br>C, C++, Python courses from Coursera and Udemy</li>
+
+                        </ul>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- services-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi iusto repellat reprehenderit aspernatur repudiandae sunt consequatur dolores molestias nostrum, sit aliquid optio eos? Consectetur, recusandae?
+                    Magnam ullam deserunt ipsa a?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>App Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi iusto repellat reprehenderit aspernatur repudiandae sunt consequatur dolores molestias nostrum, sit aliquid optio eos? Consectetur, recusandae?
+                    Magnam ullam deserunt ipsa a?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Others</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi iusto repellat reprehenderit aspernatur repudiandae sunt consequatur dolores molestias nostrum, sit aliquid optio eos? Consectetur, recusandae?
+                    Magnam ullam deserunt ipsa a?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<div id="portfolio">
+    <p>My Resume is Here:-</p>
+    <a href="C:\\Users\\chatt\\OneDrive\\Desktop\\Portfolio\\Ankit_Chatterjee_Portfolio.pdf" download>Download My Portfolio</a>
+</div>
+
+
+
+<script src="backend.js"></script>
+</body>
+</html>
